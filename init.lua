@@ -1,0 +1,10 @@
+require("configs.vim")
+require("configs.rocks")
+require("configs.ui")
+require("configs.keymaps")
+
+require("coding.cmp")
+require("coding.lsp")
+require("coding.masonui")
+require("coding.conform")
+require("nvim-autopairs").setup()
