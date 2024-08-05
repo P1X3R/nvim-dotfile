@@ -23,9 +23,9 @@ map("n", "<C-k>", "<C-w>k")
 map("n", "<C-l>", "<C-w>l")
 
 -- terminal
-map("n", "<C-h>", "<cmd>ToggleTerm<cr>")
+map("n", "<A-h>", "<cmd>ToggleTerm<cr>")
 map("t", "<C-h>", "<cmd>wincmd h<CR>")
 map("t", "<C-j>", "<cmd>wincmd j<CR>")
 map("t", "<C-k>", "<cmd>wincmd k<CR>")
 map("t", "<C-l>", "<cmd>wincmd l<CR>")
-map("t", "<C-h>", "<cmd>ToggleTerm<cr>")
+map("t", "<A-h>", "<cmd>ToggleTerm<cr>")
